@@ -1,6 +1,7 @@
 // const BASE_URL = "http://localhost:4000"
 const BASE_URL = process.env.NODE_ENV === 'production' ? `https://rapid-page-builder.onrender.com` : "http://localhost:4000"
 
+
 export const userEndPoints={
     LOGIN_API: `${BASE_URL}/api/v1/login`,
     SIGNUP_API: `${BASE_URL}/api/v1/register`,
